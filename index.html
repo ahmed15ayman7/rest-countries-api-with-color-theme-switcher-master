@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png" />
+    <title class="name-page">
+      Frontend Mentor | Rest-countries-api-with-color-theme-switcher-master
+    </title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row where back justify-content-between p-lg-3 p-md-3 pt-2">
+        <div class="col-lg-10 col-md-9 col-7">
+          <h6>Where in the world?</h6>
+        </div>
+          <!-- !button 🌙🌙🌙🌙🌙🌙🌙 dark mode
+            ? button 🌙🌙🌙🌙🌙🌙🌙🌙🌙 dark mode
+            !button 🌙🌙🌙🌙🌙🌙🌙🌙🌙🌙 dark mode */ -->
+        <div class="col-lg-2 col-md-3 col-5 d-flex dark">
+          <input type="checkbox" />
+          <i class="fa-solid fa-moon moon"></i>
+
+          <h6 style="font-size: 14px">Dark Mode</h6>
+        </div>
+      </div>
+      <div class="row home justify-content-evenly">
+        
+        <div
+          class="row justify-content-between ps-5 pe-5 mb-lg-4 mt-lg-4 ms-lg-5 me-lg-5 m-1 mb-3">
+          <!-- !Search 🔍🔍🔍🔍🔍
+          ? Search  🔍🔍🔍🔍🔍🔍🔍🔍🔍
+          !Search 🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍🔍 */ -->
+          <div
+            class="col-lg-4 col-md-6 col-12 p-1 Search back mb-lg-1 mb-md-1 mb-4">
+            <i class="fa-solid fa-magnifying-glass ms-lg-3 me-lg-3 m-1"></i>
+            <input type="text" placeholder="Search for a country..." />
+          </div>
+          <!-- !Filter by Region
+          ? Filter by Region
+          !Filter by Region */ -->
+          <li class="dropdown back col-lg-2 col-md-3 col-8 pt-2 ps-2 p-1">
+            <h5
+              class="dropdown-toggle"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Filter by Region
+            </h5>
+            <ul class="dropdown-menu ms-3">
+              <li class="dropdown-item">Africa</li>
+              <li class="dropdown-item">Americas</li>
+              <li class="dropdown-item">Asia</li>
+              <li class="dropdown-item">Europe</li>
+              <li class="dropdown-item">Oceania</li>
+            </ul>
+          </li>
+        </div>
+        <!-- !all country
+        ? all country
+        !all country */ -->
+        <div class="row countrys justify-content-evenly">
+
+        </div>
+        <!-- !detail country
+          ? detail country
+          !detail country */ -->
+        <div class="row country-detail justify-content-evenly ps-5">
+
+        </div>
+      </div>
+    </div>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/java.js" type="module"></script>
+  </body>
+</html>
