@@ -75,6 +75,7 @@ let data = async () => {
     });
   } catch (e) {
     alert(e);
+    console.log(e);
   }
 };
 //!fun get data countries to create country detail
