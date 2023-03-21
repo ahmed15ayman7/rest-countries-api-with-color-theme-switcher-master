@@ -19,7 +19,7 @@ console.log(all_countrys);
 //!fun parse api
 let data = async () => {
   try {
-    let alldata = await fetch("main/data.json");
+    let alldata = await fetch("../data.json");
     let jsondata = await alldata.json();
     window.onload = () => {
       jsondata.forEach((opj) => {
